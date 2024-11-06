@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { PROFILE } from "../constants";
 import { RiArrowRightUpLine } from "@remixicon/react";
 import { gsap } from "gsap";
+import EbrahimMulla from "../assets/EbrahimMulla.webp"
 
 const Hero = () => {
   const heroRef = useRef(null);
@@ -86,7 +87,7 @@ const Hero = () => {
       </a>
 
       <img 
-        src="src/assets/EbrahimMulla.webp" 
+        src={EbrahimMulla} 
         alt={`Portrait of ${PROFILE.name}`} 
         width={400} 
         height={400} 
